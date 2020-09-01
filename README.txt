@@ -10,5 +10,5 @@ The R code file - run_analysis - does the following
 
 5. Summarises the predictors by subject ID and activity
 
-6. Saves the new file as a CSV
+6. Saves the new file as a text file
 
