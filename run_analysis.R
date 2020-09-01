@@ -56,7 +56,7 @@ names(tidydata)<-gsub("gravity", "gravity", names(tidydata))
 average_data <- tidydata %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
-write.csv(average_data, "average_data.csv")
+write.table(average_data, "average_data.txt", row.name=FALSE)
 
 
 
